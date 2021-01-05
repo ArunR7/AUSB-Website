@@ -1,0 +1,1876 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap');
+
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+.navbar-news{
+    display: flex;
+    justify-content: center;
+    background-color: #192F59;
+    color: #FFCC66;    
+    opacity: 78%;
+}
+
+.logo{
+    
+    transform: translateY(18px);
+}
+
+.navbar-main{
+
+    display: flex;
+    background-color:  #192F59;
+    width:100%;
+    height: 100px;
+    padding-left: 50px;
+
+}
+
+.h1{
+ 
+    transform: translateY(30px);
+    color: white;
+    font-weight:600;
+    font-size:24px;
+    margin-left: 20px;
+}
+
+.AUSB{
+    transform: translateY(23px);
+    padding-left: 20px;
+}
+
+.navbar-list ul li{
+
+    display: inline-block;
+    list-style-type: none;
+    color: white;
+    justify-content: space-around;
+    padding: 15px;
+    transform: translateY(20px);
+    font-size: 18px;
+    
+    
+}
+
+
+.navbar-list ul li ul{
+
+    position:absolute;
+   
+    background-color:  #192F59;
+    color: #FFCC66;
+    width:611px;
+    height:261px;
+    list-style-type: none;
+    transition: 0.5s;
+    opacity: 0;
+    visibility: hidden;
+
+}
+.navbar-list ul li ul li{
+    display:inline-block;
+}
+.navbar-list ul li:hover ul{
+
+    opacity: 1;
+    visibility: visible
+
+}
+
+
+
+
+.navbar-list ul{
+
+    padding-left:20px;
+}
+
+.chevron i{
+
+  padding-left: 2px;
+
+}
+
+.carousel{
+  
+    padding: 80px 0px 0px 100px;
+
+}
+
+.navbar-list ul li :nth-child(8){
+
+    color: yellow;
+}
+
+/* Latest News Section */
+
+.latest-news ul {
+
+    width: 259px;
+    height: 373px;
+    background-color:  #192F59;
+    border-radius:8px;
+    display: inline-block;
+    transform: translateY(-290px);
+    margin-left: 50px;
+    
+   
+    
+}
+
+.latest-news ul li{
+      
+       display: flex;
+       justify-content: space-around;
+       padding: 10px;
+       list-style-type: none;
+       color: #FFCC66;
+       align-items: center;
+       
+     
+}
+
+.latest-news ul :first-child{
+
+    font-weight: bold;
+    text-decoration: underline #FFCC66;
+    color: white;   
+}
+
+.latest-news ul :nth-child(5){
+    
+    text-align: center;
+}
+
+/* Screen Reader Access */
+
+
+.Screen-reader ul {
+
+    width: 259px;
+    height: 210px;
+    background-color:  #192F59;
+    border-radius:8px;
+    display: inline-block;
+    align-items: flex-end;
+    transform: translateY(-270px);
+    margin-left: 1045px; 
+    
+}
+
+.Screen-reader ul li{
+      
+    display: flex;
+    padding: 7px;
+    list-style-type: none;
+    color: #FFCC66;
+    align-items: flex-start;
+    
+    
+}
+
+.Screen-reader ul :first-child{
+
+    font-weight: bold;
+    text-decoration: underline #FFCC66;
+    color: white;   
+    margin-left: 25px;
+}
+
+/* Sports Insights Section */
+
+.particles-js{
+
+    width: 100%;
+    height: 150px;
+    background-color:  #192F59;
+    color: white;
+    transform: translateY(-150px);
+}
+
+.particles-js p{
+
+    display: flex;
+    justify-content: center;
+    padding-top: 50px;
+    font-size:28px;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+/* Owl Carousel */
+
+.slider{
+    max-width: 100%;
+    display: flex;
+    transform: translateY(-50px);
+}
+
+.slider .card{
+ 
+    flex: 1;
+    margin: 0 10px;
+    background: white;
+}
+
+.slider .card .img{
+    height: 200px;
+    width: 100%;
+    padding-right: 220px;
+   
+}
+
+.slider .card .img img{
+    height:100%;
+    width: 100%;
+    object-fit: contain;
+}
+
+.slider .card .content{
+
+    padding: 10px 20px;
+}
+
+.card .content .title{
+
+    font-size: 24px;
+    font-weight: 600;
+    color: #0063B2;
+}
+
+.card .content p{
+
+    text-align: justify;
+}
+
+
+.card .content .btn1 {
+
+    display: block;
+    text-align: left;
+    margin: 10px 0;
+}
+
+.card .content .btn1 button{
+
+    color: #0063B2;
+    border: none;
+    outline: none;
+    background-color: white;
+    font-weight: 500;
+    font-size: 16px;
+    padding-top: 25px;
+    cursor: pointer;
+    transition: 0.2s;
+}
+
+.card .content .btn1 button:hover{
+    
+    transform: scale(0.9);
+
+}
+
+
+.card .content .btn1 button span{
+
+    color: #FFCC66;
+}
+
+.card .content .btn2 {
+
+    display: block;
+    text-align: left;
+    margin: 10px 0;
+}
+
+.card .content .btn2 button{
+
+    color: #0063B2;
+    border: none;
+    outline: none;
+    background-color: white;
+    font-weight: 500;
+    font-size: 16px;
+    padding-top: 25px;
+    cursor: pointer;
+    transition: 0.2s;
+}
+
+.card .content .btn2 button:hover{
+
+    transform: scale(0.9);
+}
+
+
+.card .content .btn2 button span{
+
+    color: #FFCC66;
+}
+
+.card .content .btn3 {
+
+    display: block;
+    text-align: left;
+    margin: 10px 0;
+}
+
+.card .content .btn3 button{
+
+    color: #0063B2;
+    border: none;
+    outline: none;
+    background-color: white;
+    font-weight: 500;
+    font-size: 16px;
+    cursor: pointer;
+    transition: 0.2s;
+}
+
+.card .content .btn3 button:hover{
+
+    transform: scale(0.9);
+}
+
+
+.card .content .btn3 button span{
+
+    color: #FFCC66;
+}
+
+.card .content .btn4 {
+
+    display: block;
+    text-align: left;
+    margin: 10px 0;
+}
+
+.card .content .btn4 button{
+
+    color: #0063B2;
+    border: none;
+    outline: none;
+    background-color: white;
+    font-weight: 500;
+    font-size: 16px;
+    padding-top: 25px;
+    cursor: pointer;
+    transition: 0.2s;
+}
+
+.card .content .btn4 button:hover{
+
+    transform: scale(0.9);
+}
+
+
+.card .content .btn4 button span{
+
+    color: #FFCC66;
+}
+
+.card .content .btn5 {
+
+    display: block;
+    text-align: left;
+    margin: 10px 0;
+}
+
+.card .content .btn5 button{
+
+    color: #0063B2;
+    border: none;
+    outline: none;
+    background-color: white;
+    font-weight: 500;
+    font-size: 16px;
+    padding-top: 25px;
+    cursor: pointer;
+    transition: 0.2s;
+}
+
+.card .content .btn5 button:hover{
+
+   transform: scale(0.9);
+}
+
+.card .content .btn5 button span{
+
+    color: #FFCC66;
+}
+
+/* Latest Notifications Headings */
+
+.Latest-Notifications{
+
+    width: 100%;
+    height: 150px;
+    background-color:  #192F59;
+    color: white;
+    
+}
+
+.Latest-Notifications p{
+
+    display: flex;
+    justify-content: center;
+    padding-top: 50px;
+    font-size:28px;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+/* Latest Notifications Section */
+
+
+/* Zonal Section */
+
+.ground img{
+    
+    position: absolute;
+    width: 100%;
+    height: 800px;
+}
+.zonal{
+
+    position: relative;
+    width: 255px;
+    height: 354px;
+    background-color: #192F59;
+    margin-left: 135px;
+    transform: translateY(150px);
+    border-radius:8px;
+    cursor: pointer;
+    transition: 0.5s;
+
+}
+
+.zonal:hover{
+
+    transform: translateY(85px);
+}
+
+
+
+.zonal ul li{
+
+    color:#FFCC66;
+    list-style: none;
+    padding:10px
+
+}
+
+.zonal ul li span{
+
+    color: white;
+}
+
+.zonal h2{
+
+    color: white;
+    text-decoration: underline #FFCC66;
+    padding-left: 75px;
+}
+
+/* InterZonal Section */
+
+.InterZonal{
+
+    position: relative;
+    width: 398px;
+    height: 463px;
+    background-color: #192F59;
+    margin-left:550px;
+    transform: translateY(-255px);
+    border-radius:8px;
+    cursor: pointer;
+    transition: 0.5s;
+
+}
+
+.InterZonal:hover{
+    
+    transform: translateY(-300px);
+}
+
+
+.InterZonal ul li{
+
+    color:#FFCC66;
+    list-style: none;
+    padding:10px
+
+}
+
+.InterZonal ul li span{
+
+    color: white;
+}
+
+.InterZonal h2{
+
+    color: white;
+    text-decoration: underline #FFCC66;
+    padding-left: 135px;
+}
+
+
+/* InterUniversity Section */
+
+.InterUniversity{
+
+    position: relative;
+    width: 255px;
+    height: 354px;
+    background-color: #192F59;
+    margin-left:1100px;
+    transform: translateY(-660px);
+    border-radius:8px;
+    cursor: pointer;
+    transition: 0.5s;
+
+}
+
+.InterUniversity:hover{
+
+    transform: translateY(-715px);
+}
+
+
+.InterUniversity ul li{
+
+    color:#FFCC66;
+    list-style: none;
+    padding:10px
+
+}
+
+.InterUniversity ul li span{
+
+    color: white;
+}
+
+.InterUniversity h2{
+
+    color: white;
+    text-decoration: underline #FFCC66;
+    padding-left: 40px;
+    font-size: 20px;
+}
+
+/* About Us Headings */
+
+.About-Us{
+
+    width: 100%;
+    height: 150px;
+    background-color:  #192F59;
+    color: white;
+    transform: translateY(-372px);
+    
+}
+
+.About-Us p{
+
+    display: flex;
+    justify-content: center;
+    padding-top: 50px;
+    font-size:28px;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+/* About Us Section */
+
+.section img{
+    
+    position: absolute;
+    display: flex;
+    margin-left: 0px;
+    width: 1200;
+    height: 494px;
+    transform: translateY(-300px);
+}
+
+.section .paragraph{
+
+    position: relative;
+    width: 700px;
+    margin-left: 300px;
+    transform: translateY(-225px);
+    
+
+}
+
+.section .paragraph h2{
+
+    font-size: 18px;
+    color: #FFCC66;
+    font-weight: bold;
+    padding: 10px;
+}
+
+.section .paragraph p{
+
+    font-size: 14px;
+    color: white;
+    font-weight: 500;
+    padding: 10px;
+}
+
+/* Footer Section */
+
+
+
+
+.footer ul{
+     
+    display:flex;
+    justify-content: space-between ;
+    padding:30px 180px;
+    list-style: none;
+    font-weight:bold;
+    color:white;
+    width:100%;
+    height:200px;
+    background-color: #192F59;
+
+}
+
+.footer ul p{
+    
+    color: #FFCC66;
+    transform: translateX(-50px);
+    
+}
+
+.footer ul .S1{
+
+    transform:translateX(-10px);
+}
+
+
+.footer ul .N1{
+
+    transform:translateX(-10px);
+}
+
+.footer ul .N2{
+
+    transform:translateX(-10px);
+}
+
+hr{
+
+    transform:translateY(-100px);
+    color: #FFCC66;
+    border: 1px solid #FFCC66;
+    
+}
+
+/* Copyright Section */
+
+.copryright{
+
+    transform:translateY(-50px);
+    display: flex;
+    justify-content: center;
+    color:white;
+}
+
+.fa-copyright{
+
+    padding-top:5px;
+
+}
+
+.C1{
+
+    display:flex;
+    justify-content: center;
+    padding-left:10px;
+}
+
+
+/* Chairman-Message Page*/
+
+.Message{
+    
+    transform: translateX(150px);
+    margin-top: 150px;
+    margin-bottom: 150px;
+    width: 1240px;
+    height: 1030px;
+    background-color: #192F59;
+    border-radius:8px;
+}
+
+.heading{
+    background-color: #FFCC66;
+    height: 50px;    
+    width: 215px;
+    color: #192F59;
+    transform: translateY(50px);
+    margin-left: 50px;
+    
+}
+
+.heading P{
+
+    padding: 10px 0px 0px 15px;
+    font-weight: 550;
+    font-size: 18px;
+}
+
+.Message .heading hr{
+
+    color: #FFCC66;
+    margin-top: 10px;
+    transform: translateX(200px);
+    width: 900px;
+}
+
+.Message .heading img{
+
+    width: 268px;
+    height: 281px;
+    margin-top: 55px;
+    
+}
+
+.Message .heading span h2{
+    
+    display: inline-block;
+    color: #FFCC66;
+    margin-left: 320px;
+    transform: translateY(-295px);
+}
+
+.Message .heading span ul{
+
+    transform: translateY(-295px);
+    margin-left: 310px;
+}
+
+.Message .heading span ul li{
+
+    color: #FFCC66;
+    list-style-type: none;
+    padding: 10px;
+    width: 500px;
+}
+
+.Message .heading span ul li:nth-child(7){
+    
+    width: 1200px;
+    padding: 30px;
+    transform: translateX(-340px);
+    font-weight: 300;
+}
+
+
+.Message .heading span ul li:nth-child(8){
+
+    width: 1200px;
+    padding: 20px;
+    transform: translateX(-335px);
+    font-weight: 300;
+}
+
+.Message .heading span ul li:nth-child(9){
+
+    width: 1200px;
+    padding: 20px;
+    transform: translateX(-335px);
+    font-weight: 300;
+}
+
+
+.Message .heading span ul li:nth-child(10){
+
+    width: 1200px;
+    padding: 20px;
+    transform: translateX(-335px);
+    font-weight: 300;
+}
+
+/* About AUSB */ 
+
+.ausb1{
+    
+    transform: translateX(150px);
+    transform: translateY(50px);
+    margin: 50px 0px 150px 100px;
+    width: 1240px;
+    height: 2200px;
+    background-color: #192F59;
+    border-radius:8px;
+}
+
+.ausb2{
+    background-color: #FFCC66;
+    height: 50px;    
+    width: 215px;
+    color: #192F59;
+    transform: translateY(50px);
+    margin-left: 50px;
+    
+}
+
+.ausb2 P{
+
+    padding: 10px 0px 0px 45px;
+    font-weight: 550;
+    font-size: 18px;
+}
+
+.ausb1 .ausb2 hr{
+
+    color: #FFCC66;
+    margin-top: 10px;
+    transform: translateX(200px);
+    width: 900px;
+}
+
+
+.Organisation H5{
+
+    color:white;
+    font-weight:600;
+    font-size: 18px;
+    width: 500px;
+    margin-top: 18px;
+    transform: translateX(18px);
+
+}
+
+.Organisation p{
+
+    color: #FFCC66;
+    width: 500%;
+    font-weight:300;
+    font-size: 18px;
+    transform: translateX(-25px);
+  
+}
+
+/* Zone-Wise Colleges Section */
+
+.Zone-wise{
+    
+
+    
+    margin-top: 100px;
+    margin-bottom: 150px;
+    margin-left: 150px;
+    width: 1240px;
+    height: 1159px;
+    background-color: #192F59;
+    border-radius:8px;
+}
+
+.colleges{
+    background-color: #FFCC66;
+    height: 50px;    
+    width: 270px;
+    color: #192F59;
+    transform: translateY(50px);
+    margin-left: 50px;
+    
+}
+
+.colleges P{
+
+    padding: 10px 0px 0px 45px;
+    font-weight: 550;
+    font-size: 18px;
+}
+
+.Zone-wise .colleges hr{
+
+    color: #FFCC66;
+    margin-top: 10px;
+    transform: translateX(200px);
+    width: 900px;
+}
+
+.colleges ul li{
+    
+    display: flex;
+    justify-content: space-between;
+    color: #192F59;
+    background-color: #FFCC66;
+    width: 170px;
+    height: 44px;
+    padding: 20px;
+    border-radius: 4px;
+}
+
+
+.Zone-wise .colleges ul li:nth-child(1){
+
+    color:#192F59;
+    margin-top: 20px;
+    padding: 10px 0px 0px 20px;
+    padding: 10px 0px 0px 50px;
+}
+
+.Zone-wise .colleges ul li:nth-child(2){
+
+    color:#192F59;
+    margin-top: 20px;
+    padding: 10px 0px 0px 50px;
+}
+
+.Zone-wise .colleges ul li:nth-child(3){
+
+    color:#192F59;
+    margin-top: 20px;
+    padding: 10px 0px 0px 50px;
+}
+
+
+.Zone-wise .colleges ul li:nth-child(4){
+
+    color:#192F59;
+    margin-top: 20px;
+    padding: 10px 0px 0px 50px;
+}
+
+
+
+.Zone-wise .colleges ul li:nth-child(5){
+
+    color:#192F59;
+    margin-top: 20px;
+    padding: 10px 0px 0px 50px;
+}
+
+
+
+.Zone-wise .colleges ul li:nth-child(6){
+
+    color:#192F59;
+    margin-top: 20px;
+    padding: 10px 0px 0px 50px;
+    margin-left: 200px;
+    transform: translateY(-320px);
+}
+
+.Zone-wise .colleges ul li:nth-child(7){
+
+    color:#192F59;
+    margin-top: 20px;
+    padding: 10px 0px 0px 50px;
+    margin-left: 200px;
+    transform: translateY(-320px);
+}
+
+.Zone-wise .colleges ul li:nth-child(8){
+
+    color:#192F59;
+    margin-top: 20px;
+    padding: 10px 0px 0px 50px;
+    margin-left: 200px;
+    transform: translateY(-320px);
+}
+
+
+.Zone-wise .colleges ul li:nth-child(9){
+
+    color:#192F59;
+    margin-top: 20px;
+    padding: 10px 0px 0px 50px;
+    margin-left: 200px;
+    transform: translateY(-320px);
+}
+
+
+
+.Zone-wise .colleges ul li:nth-child(10){
+
+    color:#192F59;
+    margin-top: 20px;
+    padding: 10px 0px 0px 50px;
+    margin-left: 200px;
+    transform: translateY(-320px);
+}
+
+.Zone-wise .colleges ul li:nth-child(11){
+
+    color:#192F59;
+    margin-top: 20px;
+    padding: 10px 0px 0px 50px;
+    margin-left: 400px;
+    transform: translateY(-638px);
+}
+
+.Zone-wise .colleges ul li:nth-child(12){
+
+    color:#192F59;
+    margin-top: 20px;
+    padding: 10px 0px 0px 50px;
+    margin-left: 400px;
+    transform: translateY(-638px);
+}
+
+.Zone-wise .colleges ul li:nth-child(13){
+
+    color:#192F59;
+    margin-top: 20px;
+    padding: 10px 0px 0px 50px;
+    margin-left: 400px;
+    transform: translateY(-638px);
+}
+
+
+.Zone-wise .colleges ul li:nth-child(14){
+
+    color:#192F59;
+    margin-top: 20px;
+    padding: 10px 0px 0px 50px;
+    margin-left: 400px;
+    transform: translateY(-638px);
+}
+
+
+
+.Zone-wise .colleges ul li:nth-child(15){
+
+    color:#192F59;
+    margin-top: 20px;
+    padding: 10px 0px 0px 50px;
+    margin-left: 400px;
+    transform: translateY(-638px);
+}
+
+
+.Zone-wise .colleges ul li:nth-child(16){
+
+    color:#192F59;
+    margin-top: 20px;
+    padding: 10px 0px 0px 50px;
+    margin-left: 600px;
+    transform: translateY(-958px);
+}
+
+.Zone-wise .colleges ul li:nth-child(17){
+
+    color:#192F59;
+    margin-top: 20px;
+    padding: 10px 0px 0px 50px;
+    margin-left: 600px;
+    transform: translateY(-958px);
+}
+
+.Zone-wise .colleges ul li:nth-child(18){
+
+    color:#192F59;
+    margin-top: 20px;
+    padding: 10px 0px 0px 50px;
+    margin-left: 600px;
+    transform: translateY(-958px);
+}
+
+
+.Zone-wise .colleges ul li:nth-child(19){
+
+    color:#192F59;
+    margin-top: 20px;
+    padding: 10px 0px 0px 50px;
+    margin-left: 600px;
+    transform: translateY(-958px);
+}
+
+
+
+.Zone-wise .colleges ul li:nth-child(20){
+
+    color:#192F59;
+    margin-top: 20px;
+    padding: 10px 0px 0px 50px;
+    margin-left: 600px;
+    transform: translateY(-958px);
+}
+
+.wrapper{
+
+    margin:50px 0px 0px 150px;
+}
+
+
+/* Physical Director Profile Section */
+
+
+.Physical{
+    
+    transform: translateX(150px);
+    margin-top: 150px;
+    margin-bottom: 150px;
+    width: 1240px;
+    height: 503px;
+    background-color: #192F59;
+    border-radius:8px;
+}
+
+.director{
+    background-color: #FFCC66;
+    height: 50px;    
+    width: 275px;
+    color: #192F59;
+    transform: translateY(50px);
+    margin-left: 50px;
+    
+}
+
+.director P{
+
+    padding: 10px 0px 0px 35px;
+    font-weight: 550;
+    font-size: 18px;
+}
+
+.Physical .director hr{
+
+    color: #FFCC66;
+    margin-top: 10px;
+    transform: translateX(200px);
+    width: 900px;
+}
+
+.director .link{
+
+    color: #FFCC66;
+    padding-top: 50px;
+}
+
+/* Officials Section */
+
+
+.Officials{
+    
+    transform: translateX(150px);
+    margin-top: 150px;
+    margin-bottom: 150px;
+    width: 1240px;
+    height: 2700px;
+    background-color: #192F59;
+    border-radius:8px;
+}
+
+.faculities{
+    background-color: #FFCC66;
+    height: 50px;    
+    width: 205px;
+    color: #192F59;
+    transform: translateY(50px);
+    margin-left: 50px;
+    
+}
+
+.faculities P{
+
+    padding: 10px 0px 0px 55px;
+    font-weight: 550;
+    font-size: 18px;
+}
+
+.Officials .faculities hr{
+
+    color: #FFCC66;
+    margin-top: 10px;
+    transform: translateX(200px);
+    width: 900px;
+}
+
+.director .link{
+
+    color: #FFCC66;
+    padding-top: 50px;
+}
+
+.Officials .frame-1{
+    
+    width: 281px;
+    height: 298px;
+    background-color:#C4C4C4;
+    border-radius: 6px;
+    margin-top: 50px;
+    transform: translateX(450px);
+    
+
+}
+
+.Officials .frame-1 img{
+
+    width: 116px;
+    height: 116px;
+    transform: translateX(80px);
+    margin-top: 20px;
+}
+
+.Officials .frame-1 p{
+
+    font-size: 14px;
+    padding: 10px 0px 0px 20px;
+}
+
+
+.Officials .frame-2{
+    
+    width: 269px;
+    height: 275px;
+    background-color:#C4C4C4;
+    border-radius: 6px;
+    margin-top: 20px;
+    transform: translateX(0px);
+    
+
+}
+
+.Officials .frame-2 img{
+
+    width: 116px;
+    height: 116px;
+    transform: translateX(80px);
+    margin-top: 20px;
+}
+
+.Officials .frame-2 p{
+
+    font-size: 14px;
+    padding: 10px 0px 0px 20px;
+}
+
+
+.Officials .frame-3{
+    
+    width: 269px;
+    height: 275px;
+    background-color:#C4C4C4;
+    border-radius: 6px;
+    transform: translateY(-275px);
+    margin-left: 300px;
+    
+
+}
+
+.Officials .frame-3 img{
+
+    width: 116px;
+    height: 116px;
+    transform: translateX(80px);
+    margin-top: 20px;
+}
+
+.Officials .frame-3 p{
+
+    font-size: 14px;
+    padding: 10px 0px 0px 20px;
+}
+
+
+
+.Officials .frame-4{
+    
+    width: 269px;
+    height: 275px;
+    background-color:#C4C4C4;
+    border-radius: 6px;
+    transform: translateY(-550px);
+    margin-left: 600px;
+    
+
+}
+
+.Officials .frame-4 img{
+
+    width: 116px;
+    height: 116px;
+    transform: translateX(80px);
+    margin-top: 20px;
+}
+
+.Officials .frame-4 p{
+
+    font-size: 14px;
+    padding: 10px 0px 0px 20px;
+}
+
+
+.Officials .frame-5{
+    
+    width: 269px;
+    height: 275px;
+    background-color:#C4C4C4;
+    border-radius: 6px;
+    transform: translateY(-825px);
+    margin-left: 890px;
+    
+
+}
+
+.Officials .frame-5 img{
+
+    width: 116px;
+    height: 116px;
+    transform: translateX(80px);
+    margin-top: 20px;
+}
+
+.Officials .frame-5 p{
+
+    font-size: 14px;
+    padding: 10px 0px 0px 20px;
+}
+
+.Officials .frame-6{
+    
+    width: 259px;
+    height: 290px;
+    background-color:#C4C4C4;
+    border-radius: 6px;
+    transform: translateY(-785px);
+    margin-left: 80px;
+    
+
+}
+
+.Officials .frame-6 img{
+
+    width: 116px;
+    height: 116px;
+    transform: translateX(80px);
+    margin-top: 20px;
+}
+
+.Officials .frame-6 p{
+
+    font-size: 14px;
+    padding: 10px 0px 0px 20px;
+}
+
+.Officials .frame-7{
+    
+    width: 259px;
+    height: 290px;
+    background-color:#C4C4C4;
+    border-radius: 6px;
+    transform: translateY(-1075px);
+    margin-left: 400px;
+    
+
+}
+
+.Officials .frame-7 img{
+
+    width: 116px;
+    height: 116px;
+    transform: translateX(80px);
+    margin-top: 20px;
+}
+
+.Officials .frame-7 p{
+
+    font-size: 14px;
+    padding: 10px 0px 0px 20px;
+}
+
+
+.Officials .frame-8{
+    
+    width: 259px;
+    height: 290px;
+    background-color:#C4C4C4;
+    border-radius: 6px;
+    transform: translateY(-1365px);
+    margin-left: 720px;
+    
+
+}
+
+.Officials .frame-8 img{
+
+    width: 116px;
+    height: 116px;
+    transform: translateX(80px);
+    margin-top: 20px;
+}
+
+.Officials .frame-8 p{
+
+    font-size: 14px;
+    padding: 10px 0px 0px 20px;
+}
+
+.wrapper-2,.wrapper-3{
+
+    margin-top: 50px;
+}
+
+/* Zonal Section */
+
+.Zonal{
+    
+    transform: translateX(150px);
+    margin-top: 150px;
+    margin-bottom: 150px;
+    width: 1240px;
+    height: 1159px;
+    background-color: #192F59;
+    border-radius:8px;
+}
+
+.z1{
+    background-color: #FFCC66;
+    height: 50px;    
+    width: 150px;
+    color: #192F59;
+    transform: translateY(50px);
+    margin-left: 50px;
+    
+}
+
+.z1 P{
+
+    padding: 10px 0px 0px 45px;
+    font-weight: 550;
+    font-size: 18px;
+}
+
+.Zonal .z1 hr{
+
+    color: #FFCC66;
+    margin-top: 10px;
+    transform: translateX(100px);
+    width: 900px;
+}
+
+
+.Zonal .zonal-links p{
+
+    color: #FFCC66;
+    width: 500px;
+    font-weight:500;
+    font-size: 18px;
+    padding: 18px;
+}
+
+
+/* Inter Zonal Section */
+
+.IIZ1{
+    
+    transform: translateX(150px);
+    margin-top: 150px;
+    margin-bottom: 150px;
+    width: 1240px;
+    height: 1159px;
+    background-color: #192F59;
+    border-radius:8px;
+}
+
+.IZ1{
+    background-color: #FFCC66;
+    height: 50px;    
+    width: 180px;
+    color: #192F59;
+    transform: translateY(50px);
+    margin-left: 50px;
+    
+}
+
+.IZ1 P{
+
+    padding: 10px 0px 0px 45px;
+    font-weight: 550;
+    font-size: 18px;
+}
+
+.IIZ1 .IZ1 hr{
+
+    color: #FFCC66;
+    margin-top: 10px;
+    transform: translateX(100px);
+    width: 900px;
+}
+
+
+.IIZ1 .Interzonal-links p{
+
+    color: #FFCC66;
+    width: 700px;
+    font-weight:500;
+    font-size: 18px;
+    padding: 18px;
+}
+
+/* Inter University Section*/
+
+
+.IU1{
+    
+    transform: translateX(150px);
+    margin-top: 150px;
+    margin-bottom: 150px;
+    width: 1240px;
+    height: 503px;
+    background-color: #192F59;
+    border-radius:8px;
+}
+
+.IUD1{
+    background-color: #FFCC66;
+    height: 50px;    
+    width: 218px;
+    color: #192F59;
+    transform: translateY(50px);
+    margin-left: 50px;
+    
+}
+
+.IUD1 P{
+
+    padding: 10px 0px 0px 35px;
+    font-weight: 550;
+    font-size: 18px;
+}
+
+.IU1 .IUD1 hr{
+
+    color: #FFCC66;
+    margin-top: 10px;
+    transform: translateX(200px);
+    width: 900px;
+}
+
+.IU1 .Inter-links p{
+    
+    color: #FFCC66;
+    width: 1000px;
+    font-size:18px;
+    padding: 20px;
+
+
+}
+
+.IU1 .Inter-links {
+
+    margin-top: 20px;
+}
+
+
+/* News and Events Section */
+
+.NN1{
+    
+    transform: translateX(150px);
+    margin-top: 150px;
+    margin-bottom: 150px;
+    width: 1240px;
+    height: 1159px;
+    background-color: #192F59;
+    border-radius:8px;
+}
+
+.NE1{
+    background-color: #FFCC66;
+    height: 50px;    
+    width: 250px;
+    color: #192F59;
+    transform: translateY(50px);
+    margin-left: 50px;
+    
+}
+
+.NE1 P{
+
+    padding: 10px 0px 0px 45px;
+    font-weight: 550;
+    font-size: 18px;
+}
+
+.NN1 .NE1 hr{
+
+    color: #FFCC66;
+    margin-top: 10px;
+    transform: translateX(100px);
+    width: 900px;
+}
+
+
+.NN1 .Interzonal-links p{
+
+    color: #FFCC66;
+    width: 700px;
+    font-weight:500;
+    font-size: 18px;
+    padding: 18px;
+}
+
+/* Achievements Section */
+
+
+.table-body{
+    
+    transform: translateX(100px);
+    margin-top: 150px;
+    margin-bottom: 150px;
+    width: 1240px;
+    height: 4500px;
+    background-color: #192F59;
+    border-radius:8px;
+}
+
+.table-heading{
+
+    background-color: #FFCC66;
+    color: #192F59;
+    width: 1030px;
+    height: 113px;
+    border-radius: 6px;
+    margin-left: 100px;
+    transform: translateY(50px);
+}
+
+.table-heading p{
+    
+    display:flex;
+    justify-content: center;
+    padding: 15px;
+    font-size:18px;
+    font-weight: 600;
+}
+
+.table-heading p:nth-child(2){
+      
+    transform: translateY(-15px);
+
+}
+
+table{
+
+    color: #FFCC66;
+    border: 1px;
+    margin: 20px;
+    transform: translateY(80px);
+    border: #FFCC66;
+}
+
+table td, table th{
+
+    border: 2px solid #FFCC66;
+    padding: 30px;
+    
+}
+
+/* Table Heading 2 */
+
+
+.table-heading2{
+
+    background-color: #FFCC66;
+    color: #192F59;
+    width: 1030px;
+    height: 113px;
+    border-radius: 6px;
+    margin-left: 100px;
+    transform: translateY(80px);
+}
+
+.table-heading2 p{
+    
+    display:flex;
+    justify-content: center;
+    padding: 15px;
+    font-size:18px;
+    font-weight: 600;
+}
+
+.table-heading2 p:nth-child(2){
+      
+    transform: translateY(-15px);
+
+}
+
+table{
+
+    color: #FFCC66;
+    border: 1px;
+    margin: 20px;
+    transform: translateY(80px);
+    border: #FFCC66;
+}
+
+table td, table th{
+
+    border: 2px solid #FFCC66;
+    padding: 30px;
+    
+}
+
+
+/* Achievements 2015-2016 */
+
+
+.image{
+
+    position: relative;
+    margin-top: 150px;
+    margin-left: 100px;
+}
+
+
+/* Achcievements 2012-2013 */
+
+
+/* About AUSB */ 
+
+.ausb4{
+    
+    transform: translateX(150px);
+    transform: translateY(50px);
+    margin: 50px 0px 150px 100px;
+    width: 1240px;
+    height: 2200px;
+    background-color: #192F59;
+    border-radius:8px;
+}
+
+.ausb5{
+    background-color: #FFCC66;
+    height: 50px;    
+    width: 215px;
+    color: #192F59;
+    transform: translateY(50px);
+    margin-left: 50px;
+    
+}
+
+.ausb5 P{
+
+    padding: 10px 0px 0px 45px;
+    font-weight: 550;
+    font-size: 18px;
+}
+
+.ausb4 .ausb5 hr{
+
+    color: #FFCC66;
+    margin-top: 10px;
+    transform: translateX(200px);
+    width: 900px;
+}
+
+
+.Organisation H5{
+
+    color:white;
+    font-weight:600;
+    font-size: 18px;
+    width: 500px;
+    margin-top: 18px;
+    transform: translateX(18px);
+
+}
+
+.Organisation p{
+
+    color: #FFCC66;
+    width: 500%;
+    font-weight:300;
+    font-size: 18px;
+    transform: translateX(-25px);
+  
+}
+
+/* Contact Us Section */
+
+
+/* Inter Zonal Section */
+
+.Q1{
+    
+    transform: translateX(150px);
+    margin-top: 150px;
+    margin-bottom: 150px;
+    width: 1240px;
+    height: 1159px;
+    background-color: #192F59;
+    border-radius:8px;
+}
+
+.Q2{
+    background-color: #FFCC66;
+    height: 50px;    
+    width: 180px;
+    color: #192F59;
+    transform: translateY(50px);
+    margin-left: 50px;
+    
+}
+
+.Q2 P{
+
+    padding: 10px 0px 0px 45px;
+    font-weight: 550;
+    font-size: 18px;
+}
+
+.Q1 .Q2 hr{
+
+    color: #FFCC66;
+    margin-top: 10px;
+    transform: translateX(100px);
+    width: 900px;
+}
+
+
+.Q1 .Interzonal-links p{
+
+    color: #FFCC66;
+    width: 700px;
+    font-weight:500;
+    font-size: 18px;
+    padding: 18px;
+}
+
+
+.Interzonal-links .img{
+
+    transform: translateY(-15px);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
