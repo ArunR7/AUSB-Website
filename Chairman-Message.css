@@ -19,7 +19,7 @@ html,body
 
     background-color: #192F59;
     margin:5% 5%;
-    height: 100vh;
+    
     border-radius: 0.5em;
 
 }
@@ -70,8 +70,29 @@ html,body
 
 .name{
 
+    position: relative;
+    top:-12em;
+    left:22em;
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
+    color:#FFCC66;
+    line-height: 2em;
+}
+
+.name1{
+
+    font-size:1.5rem;
+}
+
+
+.para{
+    
+    position: relative;
+    top:-10em;
+    padding:2em;
+    color:#FFCC66;
+    font-weight:200;
+    line-height: 2em;
 }
 
 @media(max-width:576px){
@@ -95,5 +116,34 @@ html,body
         left:1em;
         top:2em;
         width: 15em;
+    }
+
+    .name{
+
+        position: relative;
+        top:5em;
+        left:1em;
+        display: flex;
+        flex-direction: column;
+        color:#FFCC66;
+        line-height: 1.5em;
+    }
+
+    .name p{
+
+        font-size:90%;
+    }
+
+    .name1{
+
+        font-weight: 600;
+        font-size:24px;
+    }
+
+    .para{
+
+        margin-top:14em;
+        padding:1.5em;
+        color:#FFCC66;
     }
 }
