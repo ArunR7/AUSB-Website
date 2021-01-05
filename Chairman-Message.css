@@ -1,0 +1,99 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+*{
+    box-sizing: border-box;
+    margin:0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+}
+
+html,body
+{
+    width: 100%;
+    margin: 0px;
+    padding: 0px;
+    overflow-x: hidden; 
+}
+
+.hero{
+
+    background-color: #192F59;
+    margin:5% 5%;
+    height: 100vh;
+    border-radius: 0.5em;
+
+}
+
+.rectangle1{
+
+    position: absolute;
+    background-color: #FFCC66;
+    width: 15em;
+    position: relative;
+    top:2em;
+    left:2em;
+    padding:0.1em;
+    border-radius: 0.1em;
+   
+}
+
+.rectangle1 p{
+
+    
+    position: relative;
+    color:#192F59;
+    font-weight:600;
+    font-size:1rem;
+    top:1em;
+    left:2em;
+    
+  
+}
+
+.underline{
+
+    background-color: #FFCC66;
+    width: 75vw;
+    border: 1px solid #FFCC66;
+    position: relative;
+    top:1.1em;
+    
+}
+
+.CM{
+
+    position: relative;
+    left:2em;
+    top:5em;
+   
+}
+
+.name{
+
+    display: flex;
+    flex-direction: row;
+}
+
+@media(max-width:576px){
+
+    .rectangle1{
+
+        position: absolute;
+        background-color: #FFCC66;
+        width: 15em;
+        position: relative;
+        top:1em;
+        left:1em;
+        padding:0.1em;
+        border-radius: 0.1em;
+       
+    }
+
+    .CM{
+
+        position: relative;
+        left:1em;
+        top:2em;
+        width: 15em;
+    }
+}
