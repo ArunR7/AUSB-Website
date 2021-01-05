@@ -146,4 +146,28 @@ html,body
         padding:1.5em;
         color:#FFCC66;
     }
+
+    
+    
+    .underline{
+
+     display:none;
+    
+    }
+
+    .rectangle1 p{
+
+    
+        position: relative;
+        color:#192F59;
+        font-weight:600;
+        font-size:1rem;
+        top:0.5em;
+        left:2em;
+        
+      
+    }
+
+    
+
 }
