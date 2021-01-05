@@ -562,9 +562,9 @@
     .latest-news ul{
 
         background-color:#192F59;
-        padding: 1em;
+        padding: 0.5em;
         margin-top:2em;
-        margin-left:2.5em;
+        margin-left:1.5em;
         border-radius: 0.5em;
         color:#FFCC66;
         line-height: 2.1em;
@@ -653,6 +653,16 @@
         flex-direction: column;
         
       
+    }
+
+    .yellow{
+
+        color: #FFCC66;
+        font-weight: 400;
+        font-size: 1rem; 
+        display: flex;
+        justify-content: center;
+     
     }
     
     
