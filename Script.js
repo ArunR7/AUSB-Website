@@ -1,23 +1,9 @@
+const btn=document.getElementById('hamburger');
+const nav=document.getElementById('hamburger__list');
 
-<script>
+ 
+  btn.addEventListener('click',()=>{
 
-  $(document).ready(()=>{
-
-   
-   $('.hjhkk').hide();
-
-  })
-
-  $('.search').click(()=>{
-
-    $('.hjhkk').show();
-    
-  })
-
-  $('.hjhkk').click(()=>{
-
-   
-   $('.hjhkk').hide();
-  })
-</script>
-
+        btn.classList.toggle("active");
+        nav.classList.toggle('active');
+  });

@@ -53,8 +53,32 @@ html,body
 
 .search{
 
-    padding:1em;
+    padding:1.1em;
     color:white;
+}
+
+.S{
+
+    color: white;
+    display: flex;
+    justify-content: center;
+    position: relative;
+    top:50%;
+    left: -7%;
+    font-size: 1.5rem;
+}
+
+.SD{
+
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    position: relative;
+    top:50%;
+    left: 40%;
+    width: 20%;
+
+    
 }
 
 
@@ -409,7 +433,7 @@ html,body
     position: absolute;
     z-index: 10;
     width: 100%;
-    height: 100%;
+    height: 106.7%;
     top: 0;
 }
 
@@ -537,9 +561,60 @@ html,body
 }
 
 
+/* Hamburger Menu Section */
+/* 
+
+#hamburger{
+
+    background-color: black;
+    border: none;
+    color: white;
+    margin: 20px 20px;
+    padding: 1rem;
+
+}
+
+#hamburger.active{
+    transform: translateX(-100px);
+}
+
+#hamburger__list{
+
+    position: fixed;
+    top:0;
+    right:0;
+    background-color: black;
+    padding:2rem;
+    height: 100vh;
+    margin: 0;
+    transform: translateX(100%);
+}
+
+#hamburger__list.active{
+
+    transform: translateX(0);
+}
+#hamburger__list  ul{
+
+    padding: 0;
+    list-style-type: none;
+}
+
+#hamburger__list  ul li{
+
+    padding: 1rem 0;
+}
+
+#hamburger__list a{
+
+    color:white;
+    text-decoration: none;
+}
 
 
 
+
+ */
 
 
 

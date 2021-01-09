@@ -1,0 +1,245 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap');
+
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+
+/* Footer Section */
+
+
+
+.footer{
+
+    background-color:#192F59;
+    width:100%;
+    height:10vh;
+}
+
+.footer ul{
+   
+    display: flex;
+    width: 100%;
+    height:auto;
+    background-color: #192F59;
+    margin-top: 50vh;
+    
+
+}
+
+.footer ul li{
+    
+    position: relative;
+    list-style-type: none;
+    padding-top: 1.5%;
+    padding-bottom:4%;
+    padding-right: 4%;
+    padding-left:6%;
+    color: white;
+    font-size: 1vw;
+    font-weight: 550;
+    
+}
+
+.footer ul p{
+    
+     
+    position: relative;
+    display: block;
+    color: #FFCC66;
+    
+}
+
+.line{
+   
+     
+    position: relative;
+    margin-top:1%;
+    padding:3%;
+    color: white;
+}
+
+
+.line2{
+
+     
+    position: absolute;
+    margin-top:-1%;
+    width:190vh;
+    color: #FFCC66;
+    border: 1px solid #FFCC66;
+
+    
+}
+
+
+
+/* Gallery Section */
+
+.GG1{
+    
+    position: relative;
+    top:10vh;
+    left:10vw;
+    width: 80vw;
+    height: 100vh;
+    background-color: #192F59;
+    border-radius:8px;
+}
+
+.G1{
+
+    position: relative;
+    top:5vh;
+    left:2vw;
+    background-color: #FFCC66;
+    height:7%;    
+    width:20%;
+    color: #192F59;
+
+    
+}
+
+.G1 P{
+
+    padding: 2% 0% 0% 20%;
+    font-weight: 550;
+    font-size: 1em;
+}
+
+
+
+
+.GG1 .Interzonal-links p{
+
+    color: #FFCC66;
+    width: 65vw;
+    font-weight:500;
+    font-size: 1em;
+    padding: 5%;
+  
+}
+
+.Interzonal-links .photo{
+
+    position:relative;
+    top:5vh;
+    left:25vw;
+}
+
+ .description{
+
+    position:relative;
+    top:5vh;
+    left:5vw;
+}
+
+
+.GA{
+
+    position:relative;
+    top:-5vh;
+    left:35vw;
+}
+
+.GA1{
+
+    position:relative;
+    top:-5vh;
+    left:35vw;
+}
+
+
+/*  Media Query 576px */
+
+@media(max-width:576px){
+
+
+/* Gallery Section */
+
+.GG1{
+    
+    position: relative;
+    top:10vh;
+    left:10vw;
+    width: 80vw;
+    height: 150vh;
+    background-color: #192F59;
+    border-radius:8px;
+}
+
+.G1{
+
+    position: relative;
+    top:5vh;
+    left:2vw;
+    background-color: #FFCC66;
+    height:5%;    
+    width:50%;
+    color: #192F59;
+
+    
+}
+
+.G1 P{
+
+    padding: 2% 0% 0% 20%;
+    font-weight: 550;
+    font-size: 1em;
+}
+
+
+.GG1 .Interzonal-links p{
+
+    color: #FFCC66;
+    width: 65vw;
+    font-weight:500;
+    font-size: 1em;
+    padding: 5%;
+  
+}
+
+.Interzonal-links .photo{
+
+    position:relative;
+    top:5vh;
+    left:5vw;
+}
+
+ .description{
+
+    position:relative;
+    top:5vh;
+    left:5vw;
+}
+
+
+.GA{
+
+    position:relative;
+    top:-5vh;
+    left:60vw;
+}
+
+.GA1{
+
+    position:relative;
+    top:-5vh;
+    left:55vw;
+}
+
+#nextslide{
+    visibility: hidden;
+  
+}
+
+
+.hand{
+
+    position: relative;
+    top:5rem;
+}
+
