@@ -561,12 +561,10 @@ html,body
 }
 
 
-/* Hamburger Menu Section */
-/* 
 
 #hamburger{
 
-    background-color: black;
+    background-color:#192F59;
     border: none;
     color: white;
     margin: 20px 20px;
@@ -575,7 +573,8 @@ html,body
 }
 
 #hamburger.active{
-    transform: translateX(-100px);
+    transform: translateX(-150px);
+    background-color:black;
 }
 
 #hamburger__list{
@@ -593,6 +592,7 @@ html,body
 #hamburger__list.active{
 
     transform: translateX(0);
+    padding: 2.5em;
 }
 #hamburger__list  ul{
 
@@ -607,14 +607,66 @@ html,body
 
 #hamburger__list a{
 
-    color:white;
+    color:#FFCC66;
     text-decoration: none;
 }
 
 
+.sub-list{
+
+    
+    color:white;
+    line-height:1em;
+}
+
+.AU:hover .sub-list{
+
+   display: block;
+
+}
 
 
- */
+.sub-list1 li{
+
+   color: #FFCC66;
+   font-weight: 200;
+   font-size: 1rem;
+}
+
+
+.sub-list2 li{
+
+    color: #FFCC66;
+    font-weight: 200;
+    font-size: 1rem;
+ }
+
+ .sub-list3 li{
+
+    color: #FFCC66;
+    font-weight: 200;
+    font-size: 1rem;
+ }
+
+ .sub-list4 li{
+
+    color: #FFCC66;
+    font-weight: 200;
+    font-size: 1rem;
+ }
+
+ .sub-list5 li{
+
+    color: #FFCC66;
+    font-weight: 200;
+    font-size: 1rem;
+ }
+ 
+ 
+ 
+ 
+ 
+
 
 
 
