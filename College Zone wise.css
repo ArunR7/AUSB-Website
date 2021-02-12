@@ -20,20 +20,10 @@ table th {
   border: 2px solid #ffcc66;
   background-color: #192f59;
   padding: 0%;
-  width: 15%;
+  width: 60%;
 }
 
-.table-heading {
-  position: relative;
-  top: 1%;
-  left: 8%;
-  background-color: #ffcc66;
-  color: #192f59;
-  width: 70vw;
-  height: 18vh;
-  border-radius: 6px;
-}
-.table-heading {
+.table-heading1 {
   position: relative;
   top: 1%;
   left: 8%;
@@ -44,15 +34,26 @@ table th {
   border-radius: 6px;
 }
 
-.table-heading p {
+.table-heading1 {
+  position: relative;
+  top: 1%;
+  left: 8%;
+  background-color: #ffcc66;
+  color: #192f59;
+  width: 30vw;
+  height: 10vh;
+  border-radius: 6px;
+}
+
+.table-heading1 p {
   display: flex;
   justify-content: center;
   padding: 2%;
-  font-size: 1em;
+  font-size: 1.5em;
   font-weight: 600;
 }
 
-.table-heading p:nth-child(2) {
+.table-heading1 p:nth-child(2) {
   position: relative;
   top: -20%;
 }
@@ -114,83 +115,52 @@ table th {
   background-color: #192f59;
 }
 
-#hamburger {
-  background-color: #192f59;
-  border: none;
-  color: white;
-  margin: 20px 20px;
-  padding: 1rem;
+.rect1 {
+  position: absolute;
+  background-color: #ffcc66;
+  width: 15em;
+  position: relative;
+  top: 2em;
+  left: 2em;
+  padding: 0.1em;
+  border-radius: 0.1em;
 }
 
-#hamburger.active {
-  transform: translateX(-150px);
-  background-color: black;
-}
-
-#hamburger__list {
-  position: fixed;
-  top: 0;
-  right: 0;
-  background-color: black;
-  padding: 2rem;
-  height: 100vh;
-  margin: 0;
-  transform: translateX(100%);
-}
-
-#hamburger__list.active {
-  transform: translateX(0);
-  padding: 2.5em;
-}
-#hamburger__list ul {
-  padding: 0;
-  list-style-type: none;
-}
-
-#hamburger__list ul li {
-  padding: 1rem 0;
-}
-
-#hamburger__list a {
-  color: #ffcc66;
-  text-decoration: none;
-}
-
-.sub-list {
-  color: white;
-  line-height: 1em;
-}
-
-.AU:hover .sub-list {
-  display: block;
-}
-
-.sub-list1 li {
-  color: #ffcc66;
-  font-weight: 200;
+.rect1 p {
+  position: relative;
+  color: #192f59;
+  font-weight: 600;
   font-size: 1rem;
+  top: 1em;
+  left: 1.5em;
 }
 
-.sub-list2 li {
-  color: #ffcc66;
-  font-weight: 200;
-  font-size: 1rem;
+.underline {
+  background-color: #ffcc66;
+  width: 75vw;
+  border: 1px solid #ffcc66;
+  position: relative;
+  top: 1.1em;
 }
 
-.sub-list3 li {
-  color: #ffcc66;
-  font-weight: 200;
-  font-size: 1rem;
-}
+@media (max-width: 576px) {
+  .rect1 {
+    position: absolute;
+    background-color: #ffcc66;
+    width: 15em;
+    position: relative;
+    top: 2em;
+    left: 1em;
+    padding: 0.7em;
+    border-radius: 0.1em;
+  }
 
-.sub-list4 li {
-  color: #ffcc66;
-  font-weight: 200;
-  font-size: 1rem;
-}
-
-.sub-list5 li {
-  color: #ffcc66;
-  font-weight: 200;
-  font-size: 1rem;
+  .rect1 p {
+    position: relative;
+    color: #192f59;
+    font-weight: 600;
+    font-size: 1rem;
+    top: 0.5em;
+    left: 1.5em;
+  }
 }
