@@ -1,6 +1,10 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>AUSB-Website</title>
+
     <!-- Required meta tags -->
     <meta charset="utf-8" />
     <meta
@@ -11,14 +15,25 @@
       href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap"
       rel="stylesheet"
     />
-    <script src="https://kit.fontawesome.com/a076d05399.js"></script>
-    <script src="script.js"></script>
     <script src="https://code.jquery.com/jquery-3.5.1.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
     <link
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css"
     />
+    <script src="https://code.iconify.design/1/1.0.6/iconify.min.js"></script>
+    <link rel="stylesheet" href="Style.css" />
+    <link rel="stylesheet" href="Script.js" />
+    <link rel="stylesheet" href="Zonal Coordinator.html" />
+    <link
+      rel="stylesheet"
+      href="path/to/font-awesome/css/font-awesome.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <link rel="stylesheet" href="360 Degree.css" />
 
     <!-- Bootstrap CSS -->
     <link
@@ -27,37 +42,28 @@
       integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2"
       crossorigin="anonymous"
     />
-    <link rel="stylesheet" href="style.css" />
-    <link rel="stylesheet" href="360 Degree.css" />
-
-    <title>AUSB Website</title>
   </head>
   <body>
-    <!-- Navbar News -->
-
-    <div class="scroll-news">
+    <div class="scroll-nav">
       <p>
         AUSB NEWS - MIT Chromepet tops Zone IV Overall sports championship for
         the year 2019-20 with 700 Points
       </p>
     </div>
 
-    <!-- Bootstrap Navbar -->
+    <!-- Main-Navbar -->
 
     <nav class="navbar navbar-expand-lg" style="background-color: #192f59">
       <div class="logo">
-        <img src="images/Logo-1.png" style="width: 58px" style="height: 58px" />
+        <img src="images/Logo-1.png" style="width: 60px" />
       </div>
       <a class="navbar-brand" href="#">Anna University Sports Board</a>
       <div class="logo">
-        <img
-          src="images/AUSB LOGO.png"
-          style="width: 58px"
-          style="height: 58px"
-        />
+        <img src="images/AUSB LOGO.png" style="width: 58px" />
       </div>
       <button
         class="navbar-toggler"
+        style="background-color: white"
         type="button"
         data-toggle="collapse"
         data-target="#navbarSupportedContent"
@@ -117,14 +123,20 @@
             </a>
             <div class="dropdown-menu" aria-labelledby="navbarDropdown">
               <a class="dropdown-item" href="Zonal.html">Zonal</a>
-              <a class="dropdown-item" href="Inter Zonal.html">InterZonal</a>
-              <a class="dropdown-item" href="Inter University.html"
+              <a class="dropdown-item" href="InterZonal.html">InterZonal</a>
+              <a class="dropdown-item" href="InterUniversity.html"
                 >InterUniversity</a
               >
               <a class="dropdown-item" href="#">Annual Award Functions</a>
               <a class="dropdown-item" href="Gallery.html">Alumni Gallery</a>
-              <a class="dropdown-item" href="News and Events.html"
+              <a class="dropdown-item" href="News and Event.html"
                 >News and Events</a
+              >
+              <a class="dropdown-item" href="Zonal Coordinator.html"
+                >Zonal Co-ordinator</a
+              >
+              <a class="dropdown-item" href="College Zone wise.html"
+                >College Zone Wise</a
               >
             </div>
           </li>
@@ -142,6 +154,7 @@
               Achievements
             </a>
             <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+              <a class="dropdown-item" href="Achievements 7.html">2019-2020</a>
               <a class="dropdown-item" href="Achievements.html">2018-2017</a>
               <a class="dropdown-item" href="Achievements 2.html">2017-2016</a>
               <a class="dropdown-item" href="Achievements 3.html">2016-2015</a>
@@ -169,8 +182,8 @@
             </a>
             <div class="dropdown-menu" aria-labelledby="navbarDropdown">
               <a class="dropdown-item" href="Links.html">Links</a>
-              <a class="dropdown-item" href="#">360 View</a>
-              <a class="dropdown-item" href="#">AU HOME</a>
+              <a class="dropdown-item" href="360 Degree.html">360 View</a>
+              <a class="dropdown-item" href="https://annauniv.edu/">AU HOME</a>
             </div>
           </li>
           <li class="nav-item">
@@ -187,15 +200,81 @@
             <i class="fa fa-search" aria-hidden="true"></i>
           </div>
         </form>
-        <form class="form-inline my-2 my-lg-0">
-          <div class="search">
-            <i class="fa fa-bars" aria-hidden="true"></i>
-          </div>
-        </form>
+
+        <button id="hamburger">☰</button>
       </div>
     </nav>
 
-    <!-- News and Events -->
+    <!-- Search Modal -->
+
+    <div class="hjhkk">
+      <p class="S">Search...</p>
+      <hr class="SD" />
+    </div>
+
+    <!-- Menu Navbar -->
+
+    <nav id="hamburger__list">
+      <ul>
+        <li><a href="#" style="color: white">Home</a></li>
+        <li><a class="A1" href="#" style="color: white">About Us</a></li>
+        <ul class="sub-list1">
+          <li class="A1"><a href="About AUSB.html">About AUSB</a></li>
+          <li><a href="Colleges.html">Colleges</a></li>
+          <li>
+            <a href="Physical Director Profile.html"
+              >Physical Director Profile</a
+            >
+          </li>
+          <li><a href="Chairman-Message.html">Chairman-Message</a></li>
+          <li><a href="Officials.html">Officials</a></li>
+        </ul>
+        <li class="A2">
+          <a class="A2" href="#" style="color: white">Events</a>
+        </li>
+        <ul class="sub-list2">
+          <li><a href="Zonal.html">Zonal</a></li>
+          <li><a href="InterZonal.html">InterZonal</a></li>
+          <li><a href="InterUniversity.html">Inter-University</a></li>
+          <li><a href="Alumni Gallery.html">Alumni Gallery</a></li>
+          <li><a href="News and Event.html">News and Events</a></li>
+          <li><a href="Zonal Coordinator.html">Zonal Co-ordinator</a></li>
+          <li><a href="College Zone wise.html">College Zone Wise</a></li>
+        </ul>
+
+        <li class="A3">
+          <a class="A3" href="#" style="color: white">Achievements</a>
+        </li>
+        <ul class="sub-list3">
+          <li><a href="Achievements 7.html">2019-2020</a></li>
+          <li><a href="Achievements.html">2018-2017</a></li>
+          <li><a href="Achievements 2.html">2017-2016</a></li>
+          <li><a href="Achievements 3.html">2016-2015</a></li>
+          <li><a href="Achievements 4.html">2015-2014</a></li>
+          <li><a href="Achievements 5.html">2014-2013</a></li>
+          <li><a href="Achievements 6.html">2013-2012</a></li>
+        </ul>
+
+        <li class="A4">
+          <a class="A4" href="#" style="color: white">Contact</a>
+        </li>
+        <ul class="sub-list4">
+          <li><a href="Contact Us.html">Contact</a></li>
+        </ul>
+
+        <li class="A5">
+          <a class="A5" href="#" style="color: white">Resources</a>
+        </li>
+        <ul class="sub-list5">
+          <li><a href="Links.html">About AUSB</a></li>
+          <li><a href="360 Degree.html">360 View</a></li>
+          <li><a href="https://annauniv.edu/">AU HOME</a></li>
+        </ul>
+      </ul>
+    </nav>
+
+    <!-- 360 Degree Section -->
+
     <iframe
       height="350px"
       width="100%"
@@ -237,45 +316,255 @@
     </iframe>
 
     <!-- Footer Section -->
-    <div class="footer text-center">
-      <ul>
-        <li>
-          AUSB HOME
-          <p>www.annauniv.edu/sports</p>
-        </li>
 
-        <li>
-          EMAIL
-          <p>ausb@annauniv.edu</p>
-        </li>
-        <li>
-          AU HOME
-          <p>www.annauniv.edu</p>
-        </li>
-        <li>
-          LINKS
-          <p class="S1">Sitemap</p>
-        </li>
-        <li>
-          CONTACT US
-          <p class="N1">(044) 2235 8826</p>
-          <p class="N2">(044) 2235 5007</p>
-        </li>
-      </ul>
-    </div>
+    <div class="blue">
+      <div class="section1">
+        <div class="f1">
+          <p class="white">AUSB HOME</p>
+          <p class="yellow">www.annauniv.edu.in/sports</p>
+        </div>
 
-    <!-- Copyrights Section -->
+        <div class="f1">
+          <p class="white">EMAIL</p>
+          <p class="yellow">ausb@annauniv.edu</p>
+        </div>
 
-    <div class="line">
-      <hr class="line2" />
-      <div class="copyright text-center">
-        <i class="fa fa-copyright" aria-hidden="true"></i>
-        <span class="C1 text-center">COPYRIGHT 2020 ALL RIGHTS RESERVED</span>
+        <div class="f1">
+          <p class="white">AU HOME</p>
+          <p class="yellow">www.annauniv.edu.in</p>
+        </div>
+
+        <div class="f1">
+          <p class="white">LINKS</p>
+          <p class="yellow">Sitemap</p>
+        </div>
+
+        <div class="f1">
+          <p class="white">CONTACT US</p>
+          <p class="yellow">(044) 2235 8826</p>
+          <p class="yellow">(044) 2235 5007</p>
+        </div>
+      </div>
+
+      <div class="section2">
+        <hr class="line" />
+      </div>
+
+      <div class="section3">
+        <p class="copy">@COPYRIGHT 2021 ALL RIGHTS RESRERVED</p>
       </div>
     </div>
 
+    <!-- Search Section -->
+
     <script>
-      var active = "second";
+      $(document).ready(() => {
+        $(".hjhkk").hide();
+      });
+
+      $(".search").click(() => {
+        $(".hjhkk").show();
+      });
+
+      $(".hjhkk").click(() => {
+        $(".hjhkk").hide();
+      });
+    </script>
+
+    <!-- Sublist A1 Menu Section -->
+
+    <script>
+      $(document).ready(() => {
+        $(".sub-list1").hide();
+      });
+
+      $(".A1").click(() => {
+        $(".sub-list1").show();
+      });
+    </script>
+
+    <script>
+      $(".sub-list1").mouseleave(() => {
+        $(".sub-list1").hide();
+      });
+    </script>
+
+    <!-- Sublist A1 Menu Section -->
+
+    <script>
+      $(document).ready(() => {
+        $(".sub-list1").hide();
+      });
+
+      $(".A1").click(() => {
+        $(".sub-list1").show();
+      });
+    </script>
+
+    <script>
+      $(".sub-list1").mouseleave(() => {
+        $(".sub-list1").hide();
+      });
+    </script>
+
+    <!-- Sublist A2 Menu Section -->
+
+    <script>
+      $(document).ready(() => {
+        $(".sub-list2").hide();
+      });
+
+      $(".A2").click(() => {
+        $(".sub-list2").show();
+      });
+    </script>
+
+    <script>
+      $(".sub-list2").mouseleave(() => {
+        $(".sub-list2").hide();
+      });
+    </script>
+
+    <!-- Sublist A2 Menu Section -->
+
+    <script>
+      $(document).ready(() => {
+        $(".sub-list2").hide();
+      });
+
+      $(".A2").click(() => {
+        $(".sub-list2").show();
+      });
+    </script>
+
+    <script>
+      $(".sub-list2").mouseleave(() => {
+        $(".sub-list2").hide();
+      });
+    </script>
+
+    <!-- Sublist A3 Menu Section -->
+
+    <script>
+      $(document).ready(() => {
+        $(".sub-list3").hide();
+      });
+
+      $(".A3").click(() => {
+        $(".sub-list3").show();
+      });
+    </script>
+
+    <script>
+      $(".sub-list3").mouseleave(() => {
+        $(".sub-list3").hide();
+      });
+    </script>
+
+    <!-- Sublist A3 Menu Section -->
+
+    <script>
+      $(document).ready(() => {
+        $(".sub-list3").hide();
+      });
+
+      $(".A3").click(() => {
+        $(".sub-list3").show();
+      });
+    </script>
+
+    <script>
+      $(".sub-list3").mouseleave(() => {
+        $(".sub-list3").hide();
+      });
+    </script>
+
+    <!-- Sublist A4 Menu Section -->
+
+    <script>
+      $(document).ready(() => {
+        $(".sub-list4").hide();
+      });
+
+      $(".A4").click(() => {
+        $(".sub-list4").show();
+      });
+    </script>
+
+    <script>
+      $(".sub-list4").mouseleave(() => {
+        $(".sub-list4").hide();
+      });
+    </script>
+
+    <!-- Sublist A4 Menu Section -->
+
+    <script>
+      $(document).ready(() => {
+        $(".sub-list4").hide();
+      });
+
+      $(".A4").click(() => {
+        $(".sub-list4").show();
+      });
+    </script>
+
+    <script>
+      $(".sub-list4").mouseleave(() => {
+        $(".sub-list4").hide();
+      });
+    </script>
+
+    <!-- Sublist A5 Menu Section -->
+
+    <script>
+      $(document).ready(() => {
+        $(".sub-list5").hide();
+      });
+
+      $(".A5").click(() => {
+        $(".sub-list5").show();
+      });
+    </script>
+
+    <script>
+      $(".sub-list5").mouseleave(() => {
+        $(".sub-list5").hide();
+      });
+    </script>
+
+    <!-- Sublist A5 Menu Section -->
+
+    <script>
+      $(document).ready(() => {
+        $(".sub-list5").hide();
+      });
+
+      $(".A5").click(() => {
+        $(".sub-list5").show();
+      });
+    </script>
+
+    <script>
+      $(".sub-list5").mouseleave(() => {
+        $(".sub-list5").hide();
+      });
+    </script>
+
+    <!-- Hamburger Menu Section -->
+
+    <script>
+      const btn = document.getElementById("hamburger");
+      const nav = document.getElementById("hamburger__list");
+
+      btn.addEventListener("click", () => {
+        btn.classList.toggle("active");
+        nav.classList.toggle("active");
+      });
+    </script>
+
+    <script>
+      var active = "first";
       $(".slider").owlCarousel({
         loop: true,
         autoplay: true,
@@ -290,7 +579,28 @@
         if (active != "second") active = "second";
         else active = "first";
       }
+      myFunction("");
     </script>
+
+    <script>
+      window.onload = function () {
+        particlesJS("particle-js", particles.json);
+        particlesJS("particle-js2", particles2.json);
+        particlesJS("particle-js3", particles3.json);
+      };
+    </script>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.6.0/gsap.min.js"></script>
+    <script src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/16327/gsap-latest-beta.min.js"></script>
+    <script src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/16327/ScrollTrigger.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.6.0/CSSRulePlugin.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.6.0/Draggable.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.6.0/EaselPlugin.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.6.0/MotionPathPlugin.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.6.0/PixiPlugin.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.6.0/TextPlugin.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.6.0/ScrollToPlugin.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.6.0/ScrollTrigger.min.js"></script>
 
     <!-- Optional JavaScript; choose one of the two! -->
 
@@ -307,9 +617,8 @@
     ></script>
 
     <!-- Option 2: jQuery, Popper.js, and Bootstrap JS
-        <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
-        <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
-        <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.min.js" integrity="sha384-w1Q4orYjBQndcko6MimVbzY0tgp4pWB4lZ7lr30WKz0vr/aWKhXdBNmNb5D92v7s" crossorigin="anonymous"></script>
-        -->
+     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+      <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.min.js" integrity="sha384-w1Q4orYjBQndcko6MimVbzY0tgp4pWB4lZ7lr30WKz0vr/aWKhXdBNmNb5D92v7s" crossorigin="anonymous"></script> -->
   </body>
 </html>
