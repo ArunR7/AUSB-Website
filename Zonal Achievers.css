@@ -1,0 +1,338 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap");
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: "Poppins", sans-serif;
+}
+
+.ausb8 {
+  background-color: #192f59;
+  margin: 5% 5%;
+  border-radius: 0.5em;
+  padding: 2em;
+  padding-bottom: 7em;
+}
+
+table td,
+table th {
+  border: 2px solid #ffcc66;
+  background-color: #192f59;
+  padding: 0%;
+}
+
+.table-heading7 {
+  position: relative;
+  top: 1%;
+  left: 8%;
+  background-color: #ffcc66;
+  color: #192f59;
+  width: 70vw;
+  border-radius: 6px;
+}
+.table-heading5 {
+  position: relative;
+  top: 1%;
+  left: 8%;
+  background-color: #ffcc66;
+  color: #192f59;
+  width: 70vw;
+  height: 18vh;
+  border-radius: 6px;
+}
+
+.table-heading7 p {
+  display: flex;
+  justify-content: center;
+  padding: 2%;
+  font-size: 1em;
+  font-weight: 600;
+}
+
+.table-heading7 p:nth-child(2) {
+  position: relative;
+  top: -20%;
+}
+
+table {
+  position: relative;
+  color: #ffcc66;
+  border: 1em;
+  margin: 20%;
+  border: #ffcc66;
+}
+
+table td,
+table th {
+  border: 2em solid #ffcc66;
+  padding: 20%;
+  background-color: #192f59;
+}
+
+/* Table Heading 2 */
+
+.table-heading8 {
+  position: relative;
+  top: 6vh;
+  left: 8%;
+  background-color: #ffcc66;
+  color: #192f59;
+  width: 70vw;
+
+  border-radius: 6px;
+}
+
+.table-heading8 p {
+  display: flex;
+  justify-content: center;
+  padding: 1%;
+  font-size: 1em;
+  font-weight: 600;
+}
+
+.table-heading8 p:nth-child(2) {
+  position: relative;
+  top: 2%;
+}
+
+.table-heading9 {
+  position: relative;
+  top: 6vh;
+  left: 8%;
+  background-color: #ffcc66;
+  color: #192f59;
+  width: 70vw;
+
+  border-radius: 6px;
+}
+
+.table-heading9 p {
+  display: flex;
+  justify-content: center;
+  padding: 1%;
+  font-size: 1em;
+  font-weight: 600;
+}
+
+.table-heading9 p:nth-child(2) {
+  position: relative;
+  top: 2%;
+}
+
+table {
+  position: relative;
+  color: #ffcc66;
+  border: 1px;
+  margin: 20px;
+  top: 7vh;
+  border: #ffcc66;
+}
+
+table td,
+table th {
+  border: 2px solid #ffcc66;
+  padding: 1vw;
+  background-color: #192f59;
+}
+
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap");
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: "Poppins", sans-serif;
+}
+
+.ausb8 {
+  background-color: #192f59;
+  margin: 5% 5%;
+  border-radius: 0.5em;
+  padding: 2em;
+  padding-bottom: 7em;
+}
+
+table td,
+table th {
+  border: 2px solid #ffcc66;
+  background-color: #192f59;
+  padding: 0%;
+  width: 15%;
+}
+
+.table-heading {
+  position: relative;
+  top: 1%;
+  left: 8%;
+  background-color: #ffcc66;
+  color: #192f59;
+  width: 70vw;
+  height: 18vh;
+  border-radius: 6px;
+}
+.table-heading {
+  position: relative;
+  top: 1%;
+  left: 8%;
+  background-color: #ffcc66;
+  color: #192f59;
+  width: 70vw;
+  height: 18vh;
+  border-radius: 6px;
+}
+
+.table-heading p {
+  display: flex;
+  justify-content: center;
+  padding: 2%;
+  font-size: 1em;
+  font-weight: 600;
+}
+
+.table-heading p:nth-child(2) {
+  position: relative;
+  top: -20%;
+}
+
+table {
+  position: relative;
+  color: #ffcc66;
+  border: 1em;
+  margin: 20%;
+  border: #ffcc66;
+}
+
+table td,
+table th {
+  border: 2em solid #ffcc66;
+  padding: 20%;
+  background-color: #192f59;
+}
+
+/* Table Heading 2 */
+
+.table-heading2 {
+  position: relative;
+  top: 6vh;
+  left: 8%;
+  background-color: #ffcc66;
+  color: #192f59;
+  width: 70vw;
+  height: 18vh;
+  border-radius: 6px;
+}
+
+.table-heading2 p {
+  display: flex;
+  justify-content: center;
+  padding: 1%;
+  font-size: 1em;
+  font-weight: 600;
+}
+
+.table-heading2 p:nth-child(2) {
+  position: relative;
+  top: 2%;
+}
+
+table {
+  position: relative;
+  color: #ffcc66;
+  border: 1px;
+  margin: 20px;
+  top: 7vh;
+  border: #ffcc66;
+}
+
+table td,
+table th {
+  border: 2px solid #ffcc66;
+  padding: 1vw;
+  background-color: #192f59;
+}
+
+#hamburger {
+  background-color: #192f59;
+  border: none;
+  color: white;
+  margin: 20px 20px;
+  padding: 1rem;
+}
+
+#hamburger.active {
+  transform: translateX(-150px);
+  background-color: black;
+}
+
+#hamburger__list {
+  position: fixed;
+  top: 0;
+  right: 0;
+  background-color: black;
+  padding: 2rem;
+  height: 100vh;
+  margin: 0;
+  transform: translateX(100%);
+}
+
+#hamburger__list.active {
+  transform: translateX(0);
+  padding: 2.5em;
+}
+#hamburger__list ul {
+  padding: 0;
+  list-style-type: none;
+}
+
+#hamburger__list ul li {
+  padding: 1rem 0;
+}
+
+#hamburger__list a {
+  color: #ffcc66;
+  text-decoration: none;
+}
+
+.sub-list {
+  color: white;
+  line-height: 1em;
+}
+
+.AU:hover .sub-list {
+  display: block;
+}
+
+.sub-list1 li {
+  color: #ffcc66;
+  font-weight: 200;
+  font-size: 1rem;
+}
+
+.sub-list2 li {
+  color: #ffcc66;
+  font-weight: 200;
+  font-size: 1rem;
+}
+
+.sub-list3 li {
+  color: #ffcc66;
+  font-weight: 200;
+  font-size: 1rem;
+}
+
+.sub-list4 li {
+  color: #ffcc66;
+  font-weight: 200;
+  font-size: 1rem;
+}
+
+.sub-list5 li {
+  color: #ffcc66;
+  font-weight: 200;
+  font-size: 1rem;
+}
+
+.photograph {
+  width: 150px;
+}
