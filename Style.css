@@ -14,17 +14,16 @@ body {
   padding: 0px;
   overflow-x: hidden;
 }
-.scroll-nav {
+
+#text-roller {
+  position: relative;
   background-color: #304264;
-  color: #ffcc66;
-  display: flex;
-  justify-content: center;
+  color: white;
+  white-space: nowrap;
   padding: 0.1em;
   font-weight: 200;
-}
-
-.scroll-nav p {
-  margin-top: 0.5em;
+  display: flex;
+  justify-content: center;
 }
 
 .navbar-brand {
