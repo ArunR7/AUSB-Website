@@ -45,6 +45,7 @@
         the year 2019-20 with 700 Points
       </span>
     </div>
+
     <!-- Main-Navbar -->
 
     <nav class="navbar navbar-expand-lg" style="background-color: #192f59">
@@ -271,9 +272,21 @@
         <span><hr class="underline" /></span>
       </div>
 
-      <p class="link">Association of Indian University (AIU)</p>
-      <p class="link">Sports Development Authority of Tamil Nadu (SDAT)</p>
-      <p class="link">Government of Tamil Nadu</p>
+      <p class="link">
+        <a href="www.aiuweb.org" style="color: inherit"
+          >Association of Indian University (AIU)</a
+        >
+      </p>
+      <p class="link">
+        <a href="http://www.sdat.tn.gov.in/" style="color: inherit"
+          >Sports Development Authority of Tamil Nadu (SDAT</a
+        >
+      </p>
+      <p class="link">
+        <a href="https://www.tn.gov.in/index.php" style="color: inherit"
+          >Government of Tamil Nadu</a
+        >
+      </p>
     </div>
 
     <!-- Footer Section -->
@@ -340,9 +353,8 @@
       });
       function myFunction() {
         console.log("Hi vid");
-        document.getElementById("arunraj").innerHTML = document.getElementById(
-          active
-        ).innerHTML;
+        document.getElementById("arunraj").innerHTML =
+          document.getElementById(active).innerHTML;
         if (active != "second") active = "second";
         else active = "first";
       }
